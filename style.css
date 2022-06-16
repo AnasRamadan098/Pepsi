@@ -100,7 +100,7 @@ header ul li a:hover::after {
     font-weight: 900;
 }
 .content .textbox h2 span {
-    font-size: 3em;
+    font-size: 2.7em;
     font-weight: 900;
 }
 .content .textbox p {
@@ -161,10 +161,10 @@ header ul li a:hover::after {
         left:30px ; 
     }
 }
-@media (max-width:773px) {
+@media (min-width:773px) {
     .content .textbox h2 {
-        font-size: 2em;
-        width: 300px;
+        font-size: 3em;
+        width: auto;
     }
 }
 .thumb {
@@ -205,4 +205,12 @@ header ul li a:hover::after {
 }
 .soc li  a:hover {
     filter: invert(0);
+}
+@media(max-width:768px) {
+    .thumb,
+    .soc
+     {
+        display: none;
+    }
+    
 }
